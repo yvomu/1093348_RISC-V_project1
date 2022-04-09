@@ -1,0 +1,41 @@
+case1:
+Input a number:
+0
+The damage:
+1
+
+case2:
+Input a number:
+1
+The damage:
+5
+
+case3:
+Input a number:
+3
+The damage:
+11
+
+case4:
+Input a number:
+10
+The damage:
+309
+
+case5:
+Input a number:
+20
+The damage:
+4472
+
+case6:
+Input a number:
+99
+The damage:
+3552
+
+case7:
+Input a number:
+100
+The damage:
+-1

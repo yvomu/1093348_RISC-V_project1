@@ -1,0 +1,19 @@
+變數:
+  t1為x與回傳的F(x)值
+  t4為暫時存放在各case中的從stack提出的值或x或回傳的F(x)
+
+說明:
+Func標籤為整個Func的開始，接下來用各bgt來跳到當前的x(t1)為哪種case
+依題意分成6種case:
+  case1: 99>=x>20
+  case2: 20>=x>10
+  case3: 10>=x>1
+  case4: x=1
+  case5: x=0
+  case6: otherwise
+
+在case1~3中，先用stack把當前x儲存，再進入Func，之後再把回傳的F(x)存進stack、
+提出之前存的x後再進入下一個Func，再提出之前存的F(X)orX相加後再回傳
+
+在case4~6中，直接回傳值
+
